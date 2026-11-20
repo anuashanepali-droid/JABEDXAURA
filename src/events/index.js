@@ -1,4 +1,3 @@
-'use strict';
 module.exports = Object.freeze({
   MESSAGE: 'message', MESSAGE_REACTION: 'message_reaction', MESSAGE_UNSEND: 'message_unsend',
   MESSAGE_EDIT: 'message_edit', USER_JOIN: 'user_join', USER_LEAVE: 'user_leave',
