@@ -1,0 +1,12 @@
+{
+  "name": "jabed-fca",
+  "version": "0.1.0",
+  "description": "A modular, documented Facebook Chat API compatibility project scaffold.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": ["index.js", "index.d.ts", "src", "docs"],
+  "scripts": {"test": "node --test", "lint": "node --check index.js && node --check src/core/client.js"},
+  "keywords": ["fca", "messenger", "api", "jabed-fca"],
+  "license": "MIT",
+  "engines": {"node": ">=20"}
+}
