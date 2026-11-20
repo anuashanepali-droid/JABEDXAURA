@@ -1,4 +1,3 @@
-'use strict';
 const EventEmitter = require('node:events');
 const { NotImplementedError } = require('../errors');
 const Events = require('../events');
