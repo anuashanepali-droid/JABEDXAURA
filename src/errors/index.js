@@ -1,4 +1,3 @@
-'use strict';
 class JabedFCAError extends Error { constructor(message, options) { super(message, options); this.name = this.constructor.name; } }
 class NotImplementedError extends JabedFCAError {}
 class AdapterError extends JabedFCAError {}
